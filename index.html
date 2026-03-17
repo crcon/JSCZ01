@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>江苏独立储能收益测算模型 - 多语言在线工具</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 900px;
+            width: 100%;
+            padding: 40px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        
+        .language-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .lang-button {
+            display: block;
+            padding: 15px;
+            text-align: center;
+            text-decoration: none;
+            background: #f0f2f5;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            color: #333;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .lang-button:hover {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+            transform: translateY(-2px);
+        }
+        
+        .lang-button.featured {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+            grid-column: span 1;
+        }
+        
+        .lang-button.featured:hover {
+            background: #764ba2;
+            border-color: #764ba2;
+        }
+        
+        .divider {
+            text-align: center;
+            margin: 30px 0;
+            color: #999;
+            font-size: 14px;
+        }
+        
+        .other-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        
+        .other-links a {
+            text-decoration: none;
+            color: #667eea;
+            font-size: 14px;
+            padding: 8px 12px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        .other-links a:hover {
+            background: #f0f2f5;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #999;
+            font-size: 12px;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px;
+            }
+            
+            h1 {
+                font-size: 22px;
+            }
+            
+            .language-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+    <script>
+        // 如果支持自动语言检测，可以在这里实现
+        document.addEventListener('DOMContentLoaded', function() {
+            // 检测浏览器语言
+            let lang = navigator.language || navigator.userLanguage;
+            lang = lang.substring(0, 2).toLowerCase();
+            
+            // 默认中文
+            if (lang === 'zh') {
+                // 自动跳转到中文版本
+                // setTimeout(() => {
+                //     window.location.href = './zh-CN/agents/web-creator/share/6953a0a4f028f342ba34e29e.html';
+                // }, 500);
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>🌍 江苏独立储能收益测算模型</h1>
+        <p class="subtitle">Jiangsu Independent Energy Storage Revenue Calculator</p>
+        
+        <div class="language-grid">
+            <!-- 中文版本 (特色) -->
+            <a href="./zh-CN/agents/web-creator/share/6953a0a4f028f342ba34e29e.html" class="lang-button featured">
+                🇨🇳 简体中文<br><small>Chinese (Simplified)</small>
+            </a>
+            
+            <a href="./zh-TW/agents/web-creator/share/6953a0a4f028f342ba34e29e.html" class="lang-button featured">
+                🇹🇼 繁体中文<br><small>Chinese (Traditional)</small>
+            </a>
+            
+            <!-- 主要语言 -->
+            <a href="./en/agents/web-creator/share/6953a0a4f028f342ba34e29e.html" class="lang-button">
+                🇬🇧 English
+            </a>
+            
+            <a href="./es/agents/web-creator/share/6953a0a4f028f342ba34e29e.html" class="lang-button">
+                🇪🇸 Español
+            </a>
+            
+            <a href="./fr/agents/web-creator/share/6953a0a4f028f342ba34e29e.html" class="lang-button">
+                🇫🇷 Français
+            </a>
+            
+            <a href="./de/agents/web-creator/share/6953a0a4f028f342ba34e29e.html" class="lang-button">
+                🇩🇪 Deutsch
+            </a>
+            
+            <a href="./ja/agents/web-creator/share/6953a0a4f028f342ba34e29e.html" class="lang-button">
+                🇯🇵 日本語
+            </a>
+            
+            <a href="./ko/agents/web-creator/share/6953a0a4f028f342ba34e29e.html" class="lang-button">
+                🇰🇷 한국어
+            </a>
+            
+            <a href="./pt/agents/web-creator/share/6953a0a4f028f342ba34e29e.html" class="lang-button">
+                🇵🇹 Português
+            </a>
+            
+            <a href="./ru/agents/web-creator/share/6953a0a4f028f342ba34e29e.html" class="lang-button">
+                🇷🇺 Русский
+            </a>
+            
+            <a href="./ar/agents/web-creator/share/6953a0a4f028f342ba34e29e.html" class="lang-button">
+                🇸🇦 العربية
+            </a>
+            
+            <a href="./hi/agents/web-creator/share/6953a0a4f028f342ba34e29e.html" class="lang-button">
+                🇮🇳 हिन्दी
+            </a>
+        </div>
+        
+        <div class="divider">+ 30 更多语言可用</div>
+        
+        <div class="other-links">
+            <a href="./_downloads.html">📥 所有版本下载</a>
+            <a href="https://github.com/crcon/JSCZ01" target="_blank">📂 GitHub 仓库</a>
+            <a href="https://github.com/crcon/JSCZ01#readme" target="_blank">📖 项目文档</a>
+        </div>
+        
+        <div class="footer">
+            <p>✨ 支持 40+ 种语言 | 完全免费 | 100% 隐私保护</p>
+            <p style="margin-top: 10px;">© 2026 JSCZ01 - Jiangsu Energy Storage Project Team</p>
+        </div>
+    </div>
+</body>
+</html>
