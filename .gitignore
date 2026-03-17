@@ -1,0 +1,138 @@
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Next.js
+.next/
+out/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.env.local
+.env.*.local
+
+# OS
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Testing
+.nyc_output/
+coverage/
+
+# Environment
+.env
+.env.development
+.env.production
+.env.test
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.pid
+
+# Build artifacts
+*.min.js
+*.min.css
+
+# IDE extensions
+*.code-workspace
+
+# Misc
+.cache/
+.vuepress/dist/
+dist
+.cache
+.vuepress/dist
+dist
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage
+*.lcov
+.nyc_output
+
+# Grunt intermediate storage
+.grunt
+
+# Bower dependency directory
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+
+# Vercel
+.vercel
+
+# Debug
+debug.log
+
+# Storybook
+storybook-static
+
+# Testing
+cypress/screenshots
+cypress/videos
+
+# Production build
+.env.local
+.env.*.local
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Nuxt.js -- uncomment this if you're using it
+# .nuxt
+
+# Husky
+.husky
+
+# Don't commit source/compiled files
+*.o
+*.a
+*.so
